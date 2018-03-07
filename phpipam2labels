@@ -337,10 +337,6 @@ function drawTable_r($dhcp_dec, $data, $index, $page_width, $paper_height)
     $y_after = $this->GetY();
     $table_size = $y_after - $y_before;
 	$this->checkForEOL($table_size);
-    echo $table_size."  ";
-    echo $y_after."  ";
-    echo $y_before."  ";
-    echo "\n";
 	return;
     
 }
